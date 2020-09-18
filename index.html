@@ -9,20 +9,20 @@
 <body>
     <h1>Test</h1>
     <section>
-        <div class="divWith">
+        <div class="firstDiv">
             <div class="inputSettings">
                 <label for="NameValuePair">Name/Value Pair</label>
                 <input type="text" id="NameValuePair" placeholder="Name=Value">
             </div>
             <div class="inputSettings">
                 <label for="NameValuePairList">Name/Value Pair List</label>
-                <input type="text" id="NameValuePairList">
+                <div id="NameValuePairList"> </div>
             </div>
         </div>
         <div class="divWithButtons">
             <input type="button" onclick="AddPair()" value="Add" class="inputButton" >
-            <input type="button" value="Sort by Name" class="inputButton">
-            <input type="button" value="Sort by Value" class="inputButton">
+            <input type="button"  onclick="SortByName()" value="Sort by Name" class="inputButton">
+            <input type="button" onclick="SortByValue()" value="Sort by Value" class="inputButton">
             <input type="button" value="Delete" class="inputButton">
             <input type="button" value="Show XML" class="inputButton">
         </div>

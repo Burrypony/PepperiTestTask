@@ -26,3 +26,11 @@ section{
     display: flex;
     flex-direction: column;
 }
+
+.firstDiv{
+    width: 50%;
+}
+
+#NameValuePairList{
+    cursor: pointer;
+}
